@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Shop Page";
+}
+
+@model ShopVM
+
+<section id="products" data-count="@ViewBag.productCount">
+    <div class="container">
+        <h1 style="text-align:center; margin-bottom: 50px; margin-top:50px">Shop page</h1>
+        <div class="row" id="parent-elem">
+            <partial name="_ProductsPartial" model="@Model.products" />
+        </div>
+        <div class="row my-2 d-flex justify-content-center">
+            <button class="btn btn-primary show-more-btn">Show More</button>
+            <button class="btn btn-primary show-less-btn d-none">Show Less</button>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="~/js/shop.js"></script>
+    <script src="~/js/basket.js"></script>
+}

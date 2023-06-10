@@ -1,0 +1,92 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Data\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\Shop\" />
+    <None Remove="Views\Cart\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Responses\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\ViewModels\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\ViewModels\Slider\" />
+    <None Remove="Areas\Admin\Views\Dashboard\" />
+    <None Remove="Areas\Admin\Views\Shared\" />
+    <None Remove="Areas\Admin\Views\Slider\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Components \Header\" />
+    <None Remove="Areas\Admin\Views\Category\" />
+    <None Remove="Areas\Admin\ViewModels\Category\" />
+    <None Remove="Areas\Admin\Views\Archive\" />
+    <None Remove="Helpers\" />
+    <None Remove="Areas\Admin\Views\Product\" />
+    <None Remove="Areas\Admin\ViewModels\Product\" />
+    <None Remove="Areas\Admin\ViewModels\SliderInfo\" />
+    <None Remove="Areas\Admin\Views\SliderInfo\" />
+    <None Remove="Views\Shared\Components\Footer\" />
+    <None Remove="Views\Shared\Components\Slider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="Data\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Shop\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Responses\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\ViewModels\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\ViewModels\Slider\" />
+    <Folder Include="Areas\Admin\Views\Dashboard\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Admin\Views\Slider\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\Header\" />
+    <Folder Include="Areas\Admin\Views\Category\" />
+    <Folder Include="Areas\Admin\ViewModels\Category\" />
+    <Folder Include="Areas\Admin\Views\Archive\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Areas\Admin\Views\Product\" />
+    <Folder Include="Areas\Admin\ViewModels\Product\" />
+    <Folder Include="Areas\Admin\ViewModels\SliderInfo\" />
+    <Folder Include="Areas\Admin\Views\SliderInfo\" />
+    <Folder Include="Views\Shared\Components\Footer\" />
+    <Folder Include="Views\Shared\Components\Slider\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+</Project>

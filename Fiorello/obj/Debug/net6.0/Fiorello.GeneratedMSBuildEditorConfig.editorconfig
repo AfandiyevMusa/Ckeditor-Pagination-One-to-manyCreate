@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Fiorello
+build_property.RootNamespace = Fiorello
+build_property.ProjectDir = /Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Archive/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXJjaGl2ZS9DYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Product/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Slider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Slider/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVyL0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Slider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/Slider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/SliderInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySW5mby9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/SliderInfo/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySW5mby9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/SliderInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySW5mby9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/SliderInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2xpZGVySW5mby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/Components/Footer/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/Components/Header/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/Components/Slider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2xpZGVyL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/_ExpertPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FeHBlcnRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/_ProductsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qcm9kdWN0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hvcC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor\,Pagination\,One-to-manyCreate/Fiorello/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

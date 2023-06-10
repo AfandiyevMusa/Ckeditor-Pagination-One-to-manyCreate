@@ -1,0 +1,18 @@
+﻿@model SliderDetailVM
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+
+<div class="container my-3">
+    <h1 class="text-center">Slider detail</h1>
+    <div class="slider-detail">
+        <h3>Image</h3>
+        <img src="~/img/@Model.Image" alt="image" style="width:500px;height:300px;" />
+        <h3 class="my-3">Create date : @Model.CreateDate</h3>
+        <h3>Status : @Model.Status </h3>
+    </div>
+    <a asp-action="Index" class="btn btn-primary btn-rounded btn-fw">Back</a>
+
+</div>

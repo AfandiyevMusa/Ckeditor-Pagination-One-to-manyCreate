@@ -1,0 +1,58 @@
+﻿@model SliderInfoDetailVM
+@{
+    ViewData["Title"] = "Product";
+}
+
+<div class="container my-3">
+    <h2 class="text-center">Sliders</h2>
+    <div class="create-btn ">
+        <a asp-action="Create" class="btn btn-success btn-rounded btn-fw">Create</a>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        SignImage
+                    </th>
+                    <th>
+                        Info
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        CreateDate
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="~/img/@Model.SignImage" style="width:150px; height:150px" />
+                    </td>
+                    <td>
+                        @Model.Info
+                    </td>
+                    <td>
+                        @Model.Title
+                    </td>
+                    <td>
+                        @Model.Title
+                    </td>
+                    <td>
+                        @Model.CreateDate
+                    </td>
+                    <td>
+                        @Model.Status
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

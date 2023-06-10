@@ -1,0 +1,64 @@
+﻿@model IEnumerable<BasketDetailVM>
+@{
+    ViewData["Title"] = "Index";
+    decimal grandTotal = 0;
+}
+
+<div class="container">
+    <h1 class="text-center my-3">Products</h1>
+    @if (Model.Count() > 0)
+    {
+        <div class="products-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Count</th>
+                        <th scope="col">Total price</th>
+                        <th scope="col">Options</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="~/img/@item.Image" style="width:100px; height:100px" /></td>
+                            <td>@item.Name</td>
+                            <td>@item.Price.ToString("0.#####") ₼</td>
+                            <td>@item.Count</td>
+                            <td>@item.TotalPrice.ToString("0.#####") ₼</td>
+                            <td class="d-flex justify-content-">
+                                <form method="post">
+                                    <button type="submit" class="btn btn-primary">Details</button>
+                                </form>
+
+                                <form method="post">
+                                    <button type="submit" class="btn btn-warning">Edit</button>
+                                </form>
+
+                                <form id="basket-delete-form" data-id="@item.Id">
+                                    <button type="submit" class="btn btn-danger delete-from-basket">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                        grandTotal += item.TotalPrice;
+                    }
+                </tbody>
+            </table>
+            <h1 class="text-center my-5" id="total-price">Total : @grandTotal.ToString("0.#####") ₼</h1>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            Basket is empty!
+        </div>
+    }
+</div>
+
+@section Scripts{
+    <script src="~/js/basket.js"></script>
+}

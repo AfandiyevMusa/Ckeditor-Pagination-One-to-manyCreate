@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model ContactVM
+
+<div class="container">
+    <h1 style="text-align:center; margin-bottom: 50px; margin-top:50px">Contact Us</h1>
+    <partial name="_ExpertPartial" model="@Model.experts" />
+</div>

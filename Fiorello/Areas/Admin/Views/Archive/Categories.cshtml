@@ -1,0 +1,36 @@
+﻿@model List<CategoryVM>
+
+
+<div class="container my-3">
+    <h2 class="text-center">Category Archive</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>
+                            @category.Name
+                        </td>
+                        <td>
+                            <form method="post" asp-action="ExtractCategory" style="display:inline-block;" asp-route-id="@category.Id">
+                                <button class="btn btn-primary btn-rounded btn-fw">Extract</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

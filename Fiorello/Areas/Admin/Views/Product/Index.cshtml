@@ -1,0 +1,98 @@
+﻿@model Paginate<ProductVM>
+@{
+    ViewData["Title"] = "Product";
+}
+
+<style>
+    .active-paginate {
+        background-color: #0884ec !important;
+        color: white !important;
+    }
+</style>
+
+<div class="container my-3">
+    <h2 class="text-center">Sliders</h2>
+    <div class="create-btn ">
+        <a asp-action="Create" class="btn btn-success btn-rounded btn-fw">Create</a>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Discount
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model.Datas)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/img/@product.Image" style="width:100px; height:100px" />
+                        </td>
+                        <td>
+                            @product.Name
+                        </td>
+                        <td>
+                            @product.Description
+                        </td>
+                        <td>
+                            @product.Price.ToString("0.####")
+                        </td>
+                        <td>
+                            @product.Discount
+                        </td>
+                        <td>
+                            @product.CategoryName
+                        </td>
+                        <td>
+                            <a asp-action="Detail" asp-route-id="@product.Id" class="btn btn-primary btn-rounded btn-fw">Detail</a>
+                            <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning btn-rounded btn-fw">Edit</a>
+                            <form method="post" asp-action="Delete" style="display:inline-block;" asp-route-id="@product.Id">
+                                <button class="btn btn-danger btn-rounded btn-fw">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="pagination d-flex justify-content-center mt-3">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item @(Model.hasPrev ? "" : "disabled")">
+                        <a class="page-link" asp-route-page="@(Model.CurrentPage - 1)" tabindex="-1">Previous</a>
+                    </li>
+                    @for (int i = 1; i <= Model.TotalPage; i++)
+                    {
+                        <li class="page-item @(Model.CurrentPage == i ? "disabled" : "")">
+                            <a class="page-link @(Model.CurrentPage == i ? "active-paginate" : "")" asp-route-page="@i">@i</a>
+                        </li>
+                    }
+                    <li class="page-item @(Model.hasNext ? "" : "disabled")">
+                        <a class="page-link" asp-route-page="@(Model.CurrentPage + 1)">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+

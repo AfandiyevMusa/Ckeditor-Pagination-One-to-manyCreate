@@ -1,0 +1,21 @@
+﻿@model SliderInfoEditVM
+
+<div class="container my-5">
+    <div class="row">
+        <div class="sliderImage d-flex">
+            <img src="~/img/@Model.SignImage" style="width:400px; height:250px;" />
+            <span>@Model.Title</span>
+            <span>@Model.Info</span>
+        </div>
+        <form method="post" class="mt-3" asp-action="Edit" enctype="multipart/form-data">
+            <input asp-for="NewSignImage" class="form-control" />
+            <span asp-validation-for="NewSignImage" class="text-danger d-block"></span>
+            <input asp-for="Title" class="form-control mt-3" />
+            <span asp-validation-for="Title" class="text-danger d-block"></span>
+            <input asp-for="Info" class="form-control mt-3" />
+            <span asp-validation-for="Info" class="text-danger d-block"></span>
+            <button type="submit" class="btn btn-success btn-rounded btn-fw mt-3 d-inline-block">Submit</button>
+            <a asp-controller="SliderInfo" asp-action="Index" class="btn btn-primary btn-rounded btn-fw mt-3 d-inline-block">Back</a>
+        </form>
+    </div>
+</div>

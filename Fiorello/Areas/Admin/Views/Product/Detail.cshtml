@@ -1,0 +1,67 @@
+﻿@model ProductDetailVM
+@{
+    ViewData["Title"] = "Product";
+}
+
+<div class="container my-3">
+    <h2 class="text-center">Sliders</h2>
+    <div class="create-btn ">
+        <a asp-action="Create" class="btn btn-success btn-rounded btn-fw">Create</a>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Discount
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        @foreach (var photo in Model.Images)
+                            {
+                                <img src="~/img/@photo" style="width:150px; height:150px" />
+                            }
+                    </td>
+                    <td>
+                        @Model.Name
+                    </td>
+                    <td>
+                        @Model.Description
+                    </td>
+                    <td>
+                        @Model.Price
+                    </td>
+                    <td>
+                        @Model.Discount
+                    </td>
+                    <td>
+                        @Model.CategoryName
+                    </td>
+                    <td>
+                        @Model.CreateDate
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
