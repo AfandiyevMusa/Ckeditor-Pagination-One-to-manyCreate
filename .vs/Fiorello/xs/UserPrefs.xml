@@ -1,26 +1,59 @@
 ﻿<Properties StartupConfiguration="{F911F83E-21EA-4FE7-AAB5-F271D8365750}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello/Areas/Admin/Controllers/ProductController.cs" relfile="Fiorello/Areas/Admin/Controllers/ProductController.cs" line="149" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/wwwroot/admin/assets/js/sliderstatus.js">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Fiorello PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello/Areas/Admin/ViewModels/Product/ProductEditVM.cs">
     <Files>
-      <File FileName="Fiorello/Areas/Admin/Views/SliderInfo/Index.cshtml" />
-      <File FileName="Fiorello/wwwroot/admin/assets/js/sliderstatus.js" Line="10" Column="37" />
+      <File FileName="Fiorello/Areas/Admin/Controllers/ProductController.cs" Line="151" Column="47" />
+      <File FileName="Fiorello/Areas/Admin/ViewModels/Product/ProductEditVM.cs" Line="10" Column="19" />
+      <File FileName="Fiorello/Areas/Admin/Views/Product/Edit.cshtml" Line="34" Column="1" />
+      <File FileName="Fiorello/Services/ProductService.cs" Line="172" Column="1" />
+      <File FileName="Fiorello/Services/Interfaces/IProductService.cs" Line="20" Column="71" />
+      <File FileName="Fiorello/Areas/Admin/Views/Product/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fiorello" expanded="True">
             <Node name="Fiorello" expanded="True">
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="Product" expanded="True">
+                      <Node name="ProductEditVM.cs" selected="True" />
+                    </Node>
+                    <Node name="Slider" expanded="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="Category" expanded="True" />
+                    <Node name="Product" expanded="True" />
+                    <Node name="Slider" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="admin" expanded="True">
+                  <Node name="assets" expanded="True">
+                    <Node name="css" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Fiorello PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

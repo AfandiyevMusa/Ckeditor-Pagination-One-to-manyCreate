@@ -137,6 +137,41 @@ namespace Fiorello.Services
                 System.IO.File.Delete(path);
             }
         }
+
+        public async Task EditAsync(ProductEditVM model, List<IFormFile> newImage)
+        {
+            List<Image> images = new();
+
+            foreach (var item in newImage)
+            {
+                string oldPath = Path.Combine(_env.WebRootPath, "img", item.FileName);
+
+                if (File.Exists(oldPath))
+                {
+                    File.Delete(oldPath);
+                }
+
+                string fileName = Guid.NewGuid().ToString() + "_" + item.FileName;
+
+                await item.SaveFileAsync(fileName, _env.WebRootPath, "/img/");
+
+                images.Add(new Image { Images = fileName });
+            }
+
+            Product product = new()
+            {
+                Name = model.Name,
+                Description = model.Description,
+                Price = model.Price,
+                CategoryId = model.CategoryId,
+                Images = images
+            };
+
+
+            _context.Update(product);
+
+            await _context.SaveChangesAsync();
+        }
     }
 }
 

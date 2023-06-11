@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h78/9vtBGi6LyLT9SE6tSjYFnXxjwJ+s0EcYYK16jy8=",
+  "Hash": "9EW8lN5jHeDERhvJxuxktyBswtQry7DEpGi81yDw5HU=",
   "Source": "Fiorello",
   "BasePath": "_content/Fiorello",
   "Mode": "Default",
@@ -15162,6 +15162,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/blog-feature-img-4.jpg"
+    },
+    {
+      "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello/wwwroot/img/d0915fb9-76bc-4dbf-a6ef-ea264e960e6a_instagram6.jpg",
+      "SourceId": "Fiorello",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello/wwwroot/",
+      "BasePath": "_content/Fiorello",
+      "RelativePath": "img/d0915fb9-76bc-4dbf-a6ef-ea264e960e6a_instagram6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/d0915fb9-76bc-4dbf-a6ef-ea264e960e6a_instagram6.jpg"
     },
     {
       "Identity": "/Users/afandiyevmusa/Desktop/P414Code/Backend/ASP.NET/HW/Ckeditor,Pagination,One-to-manyCreate/Fiorello/wwwroot/img/ddc8bbb5-e326-4eaa-9693-353aa4f88b88_h2-sign-img.png",

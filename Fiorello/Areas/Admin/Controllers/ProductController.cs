@@ -9,6 +9,9 @@ using Fiorello.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Fiorello.Services;
+using Fiorello.Data;
+using Fiorello.Areas.Admin.ViewModels.Slider;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,17 +24,22 @@ namespace Fiorello.Areas.Admin.Controllers
         private readonly ISettingService _settingService;
         private readonly IDiscountService _discountService;
         private readonly ICategoryService _categoryService;
-
+        private readonly IWebHostEnvironment _env;
+        private readonly AppDbContext _context;
 
         public ProductController(IProductService productService,
                                  ISettingService settingService,
                                  IDiscountService discountService,
-                                 ICategoryService categoryService)
+                                 ICategoryService categoryService,
+                                 IWebHostEnvironment env,
+                                 AppDbContext context)
         {
             _productService = productService;
             _settingService = settingService;
             _discountService = discountService;
             _categoryService = categoryService;
+            _env = env;
+            _context = context;
         }
 
         [HttpGet]
@@ -132,6 +140,49 @@ namespace Fiorello.Areas.Admin.Controllers
         {
             await _productService.DeleteAsync(id);
 
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int? id, ProductEditVM request)
+        {
+            await GetCategoriesAndDiscounts();
+
+            if (id is null) return BadRequest();
+
+            Product existProduct = await _context.products.AsNoTracking().FirstOrDefaultAsync(m => m.Id == id);
+
+            if (existProduct is null) return NotFound();
+
+            if (existProduct.Name.Trim() == request.Name)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            if (existProduct.Description.Trim() == request.Description)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+
+            foreach (var item in request.newImages)
+            {
+                if (!item.CheckFileType("image/"))
+                {
+                    ModelState.AddModelError("NewImage", "Please select only image file");
+                    request.newImages = (List<IFormFile>)existProduct.Images;
+                    return View(request);
+                }
+
+                if (item.CheckFileSize(200))
+                {
+                    ModelState.AddModelError("NewImage", "Image size must be max 200KB");
+                    request.newImages = (List<IFormFile>)existProduct.Images;
+                    return View(request);
+                }
+            }         
+
+            await _productService.EditAsync(request,request.newImages);
 
             return RedirectToAction(nameof(Index));
         }

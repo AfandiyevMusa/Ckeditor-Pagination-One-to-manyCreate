@@ -17,6 +17,7 @@ namespace Fiorello.Services.Interfaces
         Task<int> GetCountAsync();
         Task CreateAsync(ProductCreateVM model);
         Task DeleteAsync(int id);
+        Task EditAsync(ProductEditVM model, List<IFormFile> newImage);
     }
 }
 
